@@ -1,19 +1,26 @@
-import "./header.css";
+import "./Header.css";
 
 export const Header = () => {
   return (
     <header>
-      <nav>
-        <ul>
-          <li>
-            {/* <Link></Link> */}
-          </li>
-        </ul>
-      </nav>
-      <img src="./ image3.png" alt="logo" />
-      <div>
-        <img src="" alt="" />
-        <span>User</span>
+      <div className="container">
+        <img src="assets/image3.png" alt="logo" className="logo" />
+        <nav className="navMobile">
+          <ul>
+            <li>
+              <a href="/">Home</a>
+            </li>
+            <li>
+              <a href="/">Product</a>
+            </li>
+            <li>
+              <a href="/">Diary</a>
+            </li>
+            <li>
+              <a href="/">Perfil</a>
+            </li>
+          </ul>
+        </nav>
       </div>
     </header>
   );

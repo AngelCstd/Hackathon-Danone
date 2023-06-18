@@ -1,0 +1,28 @@
+.hero__img{
+    width: 101%;
+}
+.hero__container{
+    width: 98%;
+    margin: auto;
+}
+.hero__container, .hero__content{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    text-align: center;
+}
+.hero__content{
+    width: 90%;
+    gap: 1rem;
+    align-items: center;
+    color: #324BAA;
+    margin-bottom: 3rem;
+}
+.hero__content button{
+    padding: 15px 40%;
+    border-radius: 4px;
+    background: #324BAA;
+    color: #e8f3ff;
+    border: none;
+}

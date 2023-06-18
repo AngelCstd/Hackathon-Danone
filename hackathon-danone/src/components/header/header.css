@@ -1,0 +1,35 @@
+header{
+    position: sticky;
+    top: 0;
+    width: 100%;
+    background-color: #E8F3FF;
+    padding:1rem 0;
+    box-shadow: 1px 3px 10px rgba(0, 0, 0, 0.16);
+}
+header img.logo{
+    width: 25%;
+    max-width: 90px;
+}
+header div.container{
+    width: 95%;
+    margin: auto;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    gap: 1rem;
+}
+header nav{
+    width: 100%;
+    display: flex;
+}
+header ul{
+    margin: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+header a{
+    color: darkblue;
+    font-weight: 600;
+}
