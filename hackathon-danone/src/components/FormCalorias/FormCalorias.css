@@ -1,0 +1,42 @@
+.form__calorias--div{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 90%;
+    max-width: 550px;
+    height: 90vh;
+    margin: auto;
+    font-size: 14px;
+    z-index: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form__calorias{
+    color: #0a135c;
+    background-color: #b3d3ff;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1.3rem 1rem;
+    gap: 1rem;
+    width: 100%;
+}
+
+.form__calorias button{
+    border-radius: 4px;
+    background: #324BAA;
+    color: #e8f3ff;
+    border: none;
+    width: 90%;
+    padding: 1rem;
+}
+.form__calorias input{
+    width: 90%;
+    padding: .5rem 0;
+    border: none;
+}

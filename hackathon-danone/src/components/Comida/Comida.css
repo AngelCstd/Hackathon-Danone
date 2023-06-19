@@ -1,0 +1,30 @@
+div.comida{
+    display: flex;
+    width: 100%;
+    background-color: #fff;
+    border: 1px solid #2f59ff;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.15);
+    padding: 1rem .2rem;
+}
+.comida__button{
+    padding: 1rem;
+    border-radius: 20px;
+    background: #324BAA;
+    color: #e8f3ff;
+    border: none;
+}
+.comida__info h5{
+    text-transform: capitalize;
+    font-size: 16px;
+    margin: 0;
+}
+.comida__info p{
+    font-size: 12px;
+    margin: .2rem 0;
+}
+div.completado{
+    background-color: #e8f3ff;
+}

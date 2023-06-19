@@ -14,12 +14,14 @@ header div.container{
     width: 95%;
     margin: auto;
     display: flex;
-    flex-flow: column nowrap;
+    flex-wrap: wrap;
+    justify-content: center;
     align-items: center;
     gap: 1rem;
 }
 header nav{
     width: 100%;
+    max-width: 500px;
     display: flex;
 }
 header ul{
@@ -32,4 +34,10 @@ header ul{
 header a{
     color: darkblue;
     font-weight: 600;
+}
+@media (width >= 730px) {
+    header div.container{
+        width: 90%;
+        justify-content: space-between;
+    }
 }
